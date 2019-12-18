@@ -454,4 +454,8 @@ footer p.Copyright {
     text-align: center;
 }
 
-@media screen and (max-width:)
+@media screen and (max-width: 1024px) {
+    .lowerTop img {
+        display: none;
+    }
+}
