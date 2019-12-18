@@ -455,10 +455,21 @@ footer p.Copyright {
 }
 
 @media screen and (max-width: 1024px) {
+    body {
+        display: block;
+    }
     .lowerTop img {
         display: none;
     }
+    .logo {
+        display: block;
+        padding: 10px 25%;
+        width: 100%;
+    }
     header {
         flex-flow: column-reverse;
+        position: initial;
+        margin: 5px;
     }
+    .topCont {}
 }
