@@ -455,6 +455,9 @@ footer p.Copyright {
     text-align: center;
 }
 
+
+/* tablet */
+
 @media screen and (max-width: 1024px) {
     body {
         display: block;
@@ -486,6 +489,9 @@ footer p.Copyright {
     }
 }
 
+
+/* mobile */
+
 @media screen and (max-width:800px) {
     html {
         width: 100%;
@@ -509,12 +515,11 @@ footer p.Copyright {
         text-decoration: none;
         width: 100%;
         text-align: center;
-        padding: 5px;
-        padding-left: 15%;
+        padding: 5% 0% 15% 15%;
         border-top-width: 100%;
         border-top: .5px solid lightgray;
         border-bottom: .5px solid lightgray;
-        color: lightgray;
+        color: gray;
         padding: 0px;
     }
     a:first-child {
